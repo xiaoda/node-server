@@ -1,0 +1,26 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "number",
+      "primaryKey": true,
+      "selfIncrement": true,
+      "nextValue": 1
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "type": "string"
+    }
+  ],
+  "data": [
+    {
+      "id": 0,
+      "name": "xiaoda",
+      "type": "developer"
+    }
+  ]
+}
