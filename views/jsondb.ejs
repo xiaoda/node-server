@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JsonDB</title>
+  <link href='/css/style.css'>
+</head>
+<body>
+  <h2>JsonDB</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Datetime</th>
+      </tr>
+    </thead>
+    <tbody>
+      <? logs.forEach(log => { ?>
+        <tr>
+          <td><?= log.datetime ?></td>
+        </tr>
+      <? }) ?>
+    </tbody>
+  </table>
+</body>
+</html>
